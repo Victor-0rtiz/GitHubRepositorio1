@@ -8,8 +8,8 @@ Dictionary<string, int> diccionario = Departamento
 .Zip(Poblacion, (k, v) => new { Clave = k, Valor = v })
 .ToDictionary(x => x.Clave, x => x.Valor);
 //Encontrar el mayor y menor (poblacion)
-String minDep = Poblacion.Min();
-String maxDep = Poblacion.Max();
+int minDep = Poblacion.Min();
+int maxDep = Poblacion.Max();
 string maxDepKey="", minDepKey="";
 //Encotrar el nombre del departamento que tiene la mayor y menor poblacion
 for (var i = 0; i < Poblacion.Length; i++){
