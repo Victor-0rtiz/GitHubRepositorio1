@@ -27,7 +27,7 @@ Console.WriteLine();}
 for (int i = 0; i < Poblacion.Length; i++)
 { Console.WriteLine($"{Departamento[i],20} ==> {Poblacion[i],10:N0}");
 }
-//Suma de toda la poblacion y nombre de mayor y menor
+//Sumar todas las poblaciones con Linq
 Console.WriteLine($"Población General:{diccionario.Values.Sum():N0}"); 
 Console.WriteLine($"Departamento  con mayor Población:{maxDepKey}");
 Console.WriteLine($"Departamento con menor Población:{minDepKey}");
