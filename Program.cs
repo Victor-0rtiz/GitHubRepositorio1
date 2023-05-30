@@ -24,7 +24,7 @@ foreach (var item in diccionario)
 { Console.WriteLine($"{item.Key,-20} ==> {item.Value,10:N0}");
 Console.WriteLine();}
 // Mostrar  resultado
-for (int i = 0; i < Poblacion.length; i++)
+for (int i = 0; i < Poblacion.Length; i++)
 { Console.WriteLine($"{Departamento[i],20} ==> {Poblacion[i],10:N0}");
 }
 //Suma de toda la poblacion y nombre de mayor y menor
