@@ -36,7 +36,7 @@ Console.WriteLine($"{item.Name,-20} ==> {item.population,10:N0}");
 
 }
 // Mostrar  el mayor y el menor
-Console.WriteLine($"Departamento con menor Población:{minDep.Name}");
+Console.WriteLine($"Departamento  con menor Población:{minDep.Name}");
 Console.WriteLine($"Departamento  con mayor Población:{maxDep.Name}");
 //Sumar todas las poblaciones con Linq
 int total = isDeptos.Select( d=> d.population).Sum();
